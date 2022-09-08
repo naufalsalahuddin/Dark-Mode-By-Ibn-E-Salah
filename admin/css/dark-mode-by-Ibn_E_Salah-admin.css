@@ -1,0 +1,111 @@
+:root {
+  --main-bg-color: #2271b1;
+}
+.Ibn_E_Salahadminpagesetting .logo
+{
+  width:100%;
+  max-width: 150px;
+  margin-top: 20px;
+  display: block;
+}
+.Ibn_E_Salahadminpagesetting .highlighted{
+  color:var(--main-bg-color);;
+  padding: 10px;
+}
+.Ibn_E_Salahadminpagesetting input::-webkit-outer-spin-button,
+.Ibn_E_Salahadminpagesetting input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Ibn_E_Salahadminpagesetting .switchertype input[type=radio], .switcheralignment input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+  }
+  
+.Ibn_E_Salahadminpagesetting .switchertype input[type=radio]+img {
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width:75px !important;
+    height: 75px !important;
+    object-fit: contain !important;
+  }
+  
+.Ibn_E_Salahadminpagesetting .switchertype input[type=radio]:checked + img , .switcheralignment input[type=radio]:checked + p {
+    outline: 3px solid var(--main-bg-color);
+  }
+.Ibn_E_Salahadminpagesetting .switcheralignment input[type=radio]+p
+{
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: #ffffff;
+  width:50px !important;
+  height: 50px !important;
+  line-height: 50px;
+  text-align: center;
+  object-fit: contain !important;
+  float: left;
+}
+
+
+.Ibn_E_Salahadminpagesetting #darkmodefrontshowyesandnow{
+  position: absolute;
+  opacity: 0;
+  width: 0;
+}
+
+.Ibn_E_Salahadminpagesetting #darkmodefrontshowyesandnow + label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 50px;
+	height: 20px;
+	background: grey;
+	display: block;
+	border-radius: 25px;
+	position: relative;
+}
+
+.Ibn_E_Salahadminpagesetting #darkmodefrontshowyesandnow + label:after {
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 4px;
+	width: 18px;
+	height: 18px;
+	background: #fff;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+.Ibn_E_Salahadminpagesetting #darkmodefrontshowyesandnow:checked + label {
+	background: var(--main-bg-color);;
+}
+
+.Ibn_E_Salahadminpagesetting #darkmodefrontshowyesandnow:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+.Ibn_E_Salahadminpagesetting #darkmodefrontshowyesandnow + label:active:after {
+	width: 32.5px;
+}
+
+.Ibn_E_Salahadminpagesetting input[type=number]
+{
+  text-align: center;
+}
+.Ibn_E_Salahadminpagesetting textarea
+{
+  min-height: 400px;
+  width:80%;
+}
+.Ibn_E_Salahadminpagesetting .clear
+{
+  color:var(--main-bg-color);
+  cursor: pointer;
+  margin-left: 10px;
+  display: none;
+}
