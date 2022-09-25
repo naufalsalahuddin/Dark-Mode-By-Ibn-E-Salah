@@ -1,4 +1,6 @@
-Under Development
+Important Notice
+(Under Development)
+Please Change The Folder Name To This "dark-mode-by-Ibn_E_Salah", Thanks :)
 
 === Dark Mode By Ibn_E_Salah  ===
 Contributors: ibnesalah
