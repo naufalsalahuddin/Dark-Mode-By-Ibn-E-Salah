@@ -21,10 +21,10 @@ $darkmodeoptions = get_option( 'darkmodeoption' );
 require plugin_dir_path( __FILE__ ) . '../includes/darkmode-css-customizer-Ibn_E_Salah.php';	
 
 // Create Static CSS
-if ($darkmodeoptions['darkmodeupdate'] == '1'){
+// if ($darkmodeoptions['darkmodeupdate'] == '1'){
     require plugin_dir_path( __FILE__ ) . 'css/dark-mode-css-by-Ibn_E_Salah.php';
     createdarkmodecachefile_by_Ibn_E_Salah(Ibn_E_Salah_darkmode_customizer_css(),Ibn_E_Salah_darkmode_setting_css());
-}
+// }
 
 
 // Enqueue Script;
